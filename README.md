@@ -31,8 +31,6 @@ docker run local php vendor/bin/phpunit --configuration tests/phpunit.config.xml
 docker run local
 ```
 
-## Running
-
 ### without Docker
 
 Provided that you've already got Php 7 and Sqlite installed, you can run this package without Docker.
