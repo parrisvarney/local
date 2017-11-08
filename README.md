@@ -6,7 +6,7 @@ Php script that loads relational data from tab delimited files, and returns some
 
 ## Docker
 
-Docker provides a portable and predictable build environment for thie Php script.  It provides Php 7.1.10 with Sqlite and Composer.
+Docker provides a portable and predictable build environment for the Php script.  It provides Php 7.1.10 with Sqlite and Composer.
 
 ## Composer
 
@@ -14,7 +14,7 @@ Although this library does not require any external dependencies to run, Compose
 
 ## Sqlite
 
-The included data files are small enough where the answers could be derived quickly without an external database.  Sqlite is included as an in-memory database becuse it makes the intent of the code more clear and concise. 
+The included data files are small enough where the answers could be derived quickly without an external database.  Sqlite is included as an in-memory database because it makes the intent of the code more clear and concise. 
 
 ## Running 
 
@@ -44,6 +44,14 @@ run local php vendor/bin/phpunit --configuration tests/phpunit.config.xml
 
 # Run script
 php index.php
+```
+
+## The "quick and dirty" solution
+
+The coding exercise solution is also provided in a single, dependency-less script: [`the-quick-and-dirty-way.php`](the-quick-and-dirty-way.php).  All you need is php5.4 (or greater).
+
+```sh
+php the-quick-and-dirty-way.php
 ```
 
 ## TLDR
